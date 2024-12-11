@@ -1,4 +1,4 @@
-h1, h2, h4 {
+h1 {
   
   font-family: "Lilita One", sans-serif;
   font-weight: 400;
@@ -15,6 +15,13 @@ h2, h4 {
  
 }
 
+p {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+}
+
 body {
 background-color: #fff1cb;
 
@@ -25,10 +32,20 @@ background-color: #fff1cb;
   list-style-type: none;
   margin: 0;
   padding: 0;
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
 
 }
 
-.title {
+.title, .ending {
+  background-color: rgb(120, 136, 89);
+  color: white;
+
+}
+
+#catering {
   background-color: rgb(120, 136, 89);
   color: white;
 
@@ -45,7 +62,17 @@ background-color: #fff1cb;
 .w3-display-middle {
 
   font-family: "Lilita One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #fff1cb;
+
+}
+
+#casita {
+  
+  font-family: "Lilita One", sans-serif;
+  font-weight: 400;
   font-style: normal;
   color: rgb(120, 136, 89);
-
+ 
 }

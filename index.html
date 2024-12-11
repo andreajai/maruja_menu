@@ -12,6 +12,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lilita+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
     
 </head>
 
@@ -43,16 +44,7 @@
 
         </div>
 
-        <!-- Image in Display Container 
-        <div class="w3-padding-top-48">
-            <div class="w3-display-container w3-text-white">
-                <img src="assets/cachanga.jpg" alt="picarones" style="width:100%">
-                <div class="w3-display-bottomleft w3-padding-small w3-opacity w3-hide-small">
-                    <h2>La Casa de Maruja</h2>
-                </div>  
-            </div>
-        </div>-->
-
+        
         <!-- About -->
         <div id="about" class="w3-padding-top-64 w3-white">
             <div class="w3-row">
@@ -240,7 +232,7 @@
 
             <!-- catering text-->
 
-            <div class="title" class="w3-container">
+            <div id="catering" class="w3-container w3-padding">
                 <p>La Casa de Maruja, is dedicated to collaborating, curating and executing your catering dreams through delicous treats. We understand the the power of food that brings people together.
                 We look foward to making your vision come alive! Any questions? Contact us! We love to chat.</p>
             </div>
@@ -263,11 +255,26 @@
         </div>  <!-- end of menu div -->
 
         <!-- Contact -->
-        <div id="contact" class="w3-container w3-padding-64">
-            <div class="title" class="w3-row"><h1>Contacto</h1></div>
-                <div class="w3-row w3-sand"><p id="casita">La Casa de Maruja,</p>
-                    <p class="w3-text-blue-grey w3-large">
-                    <p>xx Los Melocotones, Naranjal, San Martin de Porres Lima Peru</b></p>
+
+        <div id="contact" class="w3-container w3-padding w3-sand">
+            <h1>Contacto</h1>
+            <h4 id="casita">La Casa de Maruja</h4>
+                <p>xx Los Melocotones, Naranjal, San Martin de Porres Lima Peru</p>
+                <p>You can also contact us by phone +511 767 4263 or email queriquito@lacasademaruja.com, or send us a message here:</p>
+
+                <form action="/action_page.php" target="_blank">
+                    <p><input class="w3-input w3-padding-16" type="text" placeholder="Name" required name="Name"></p>
+                    <p><input class="w3-input w3-padding-16" type="number" placeholder="Number of People" required name="People"></p>
+                    <p><input class="w3-input w3-padding-16" type="datetime-local" placeholder="Date and time" required name="date" value="2024-12-16T20:00"></p>
+                    <p><input class="w3-input w3-padding-16" type="text" placeholder="Special Request" required name="Message"></p>
+                    <p><button class="w3-button w3-light-gray w3-white w3-round-xlarge" type="submit">Mensajito!</button></p>
+                </form>
+        </div> 
+
+        <!-- <div id="contact" class="w3-container w3-padding-64">
+                <div class="title" class="w3-row w3-center"><h1>Contacto</h1></div>
+                <div class="w3-row w3-sand"><h4 id="casita">La Casa de Maruja</h4>
+                    <p>xx Los Melocotones, Naranjal, San Martin de Porres Lima Peru</p>
                     <p>You can also contact us by phone +511 767 4263 or email queriquito@lacasademaruja.com, or send us a message here:</p>
 
                     <form action="/action_page.php" target="_blank">
@@ -275,9 +282,9 @@
                         <p><input class="w3-input w3-padding-16" type="number" placeholder="Number of People" required name="People"></p>
                         <p><input class="w3-input w3-padding-16" type="datetime-local" placeholder="Date and time" required name="date" value="2024-12-16T20:00"></p>
                         <p><input class="w3-input w3-padding-16" type="text" placeholder="Special Request" required name="Message"></p>
-                        <p><button class="w3-button w3-light-grey w3-section" type="submit">Mensajito!</button></p>
+                        <p><button class="w3-button w3-light-gray w3-white w3-round-xlarge" type="submit">Mensajito!</button></p>
                     </form>
-                </div>
+                </div> -->
 
             
         </div>  
