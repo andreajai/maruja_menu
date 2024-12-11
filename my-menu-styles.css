@@ -1,0 +1,51 @@
+h1, h2, h4 {
+  
+  font-family: "Lilita One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+ 
+}
+
+h2, h4 {
+  
+  font-family: "Lilita One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: rgb(120, 136, 89);
+ 
+}
+
+body {
+background-color: #fff1cb;
+
+}
+
+.no-bullets {
+
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+
+}
+
+.title {
+  background-color: rgb(120, 136, 89);
+  color: white;
+
+}
+
+.w3-bar-item {
+
+  font-family: "Lilita One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+
+}
+
+.w3-display-middle {
+
+  font-family: "Lilita One", sans-serif;
+  font-style: normal;
+  color: rgb(120, 136, 89);
+
+}
